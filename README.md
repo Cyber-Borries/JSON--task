@@ -11,6 +11,6 @@ Data is only saved in the sessionStorage, meaning if the tab is closed the data 
 * How sessionStorage works
 * Remove and edit saved items from sessionStorage
 
-(Webiste can be seen here)[https://cyber-borries.github.io/JSON--task/]
+[Website can be seen here](https://cyber-borries.github.io/JSON--task/)
 
 Thank you for viewing my github repository, if you have any comments please feel free to contact me at adriaan.bornman1@gmail.com
