@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body onload="myLoad()">
+    <h1>Welcome to your music catalogue</h1>
+    <div class="container">
+      <div class="form-container">
+        <h2>Enter your favorite songs below</h2>
+        <form>
+          <label for="artistName">Enter the artist's name</label>
+          <input type="text" name="artistName" id="artistName" />
+          <br />
+          <label for="songName">Enter the song's name</label>
+          <input type="text" name="songName" id="songName" />
+          <br />
+          <label for="albumName">Enter the album's name</label>
+          <input type="text" name="albumName" id="albumName" />
+          <br />
+          <label for="genreType">Enter the genre</label>
+          <input type="text" name="genreType" id="genreType" />
+          <br />
+          <button class="btn-submit" id="submit" onclick="addMusic()">
+            Click to submit your favorite music
+          </button>
+        </form>
+      </div>
+      <div class="music-container">
+        <h1 id="favSongID">My favorite songs</h1>
+        <!-- <select id="musicList" onchange="ChangeActiveUser(this.value)">
+          <option value="">--Please choose a music object--</option>
+        </select> -->
+        <!-- <table id="musicList">
+          <tr>
+            <th>Artist's Name</th>
+            <th>Song's Name</th>
+            <th>Album's Name</th>
+            <th>Genre Type</th>
+          </tr>
+          <tbody></tbody>
+        </table> -->
+
+        <ul id="musicList">
+
+        </ul>
+        <!-- <button class="delete-songs" id="deleteSongs" onclick="deleteMusic()">
+          Press here to clear your selections -->
+        </button>
+      </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
