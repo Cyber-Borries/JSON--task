@@ -1,11 +1,11 @@
 # JSON--task
 
-# This was a task from the bootcamp that I'm currently enrolled in
+## This was a task from the bootcamp that I'm currently enrolled in
 
-# This website allows you to save and change your favorite music, including artists, song name, album and genre. 
+## This website allows you to save and change your favorite music, including artists, song name, album and genre. 
 Data is only saved in the sessionStorage, meaning if the tab is closed the data will be lost as well
 
-# In this project I learned the following
+### In this project I learned the following
 
 * JSON syntax
 * How sessionStorage works
